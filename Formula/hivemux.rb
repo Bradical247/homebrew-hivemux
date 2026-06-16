@@ -1,22 +1,22 @@
 class Hivemux < Formula
   desc "Linux-native, tmux-backed orchestrator for parallel AI coding agents"
   homepage "https://github.com/Bradical247/hivemux"
-  version "1.5.0"
+  version "1.6.0"
   license "MIT"
 
   depends_on "tmux"
 
   on_macos do
     on_arm do
-      url "https://github.com/Bradical247/hivemux/releases/download/v1.5.0/hivemux-macos-arm64"
-      sha256 "8fa439093955f1b8a4ef697a088216988bfcf8464521908c482eb1c3c5512c5c"
+      url "https://github.com/Bradical247/hivemux/releases/download/v1.6.0/hivemux-macos-arm64"
+      sha256 "8e3c722aa7129425cfa43eeeba3d80d2d504930cd74a45eaa785b48c5548fef1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Bradical247/hivemux/releases/download/v1.5.0/hivemux-linux-x64"
-      sha256 "56823ce4d7515bb8882012ea0c7375c41cfac6413f5fdfc10c178db34e5a0d27"
+      url "https://github.com/Bradical247/hivemux/releases/download/v1.6.0/hivemux-linux-x64"
+      sha256 "79387fd83df4a8e2af18cafc9ac375fab6620bb396b6e8ca58f7dfa0d6792cce"
     end
   end
 
