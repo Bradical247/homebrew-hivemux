@@ -32,6 +32,6 @@ class Hivemux < Formula
   end
 
   test do
-    assert_match "1.5.0", shell_output("#{bin}/hivemux --version")
+    assert_match "1.6.0", shell_output("#{bin}/hivemux --version")
   end
 end
